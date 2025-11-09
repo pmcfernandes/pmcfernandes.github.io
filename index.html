@@ -19,10 +19,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
-<!-- Calendly link widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<!-- Calendly link widget end -->
 </head>
 
 <body class="h-100">
@@ -56,10 +52,32 @@
                         <div class="d-grid gap-2"><button class="btn btn-outline-warning" type="submit">Send </button></div>
                     </form>
                 </div>
-                <div class="text-start social-icons p-0"><a href="https://www.twitter.com/pmcfernandes" target="_blank"><i class="icon ion-social-twitter"></i></a><a href="http://www.linkedin.com/in/pmcfer" target="_blank"><i class="icon ion-social-linkedin"></i></a><a href="https://github.com/pmcfernandes" target="_blank"><i class="icon ion-social-github"></i></a><a href="https://blog.impedro.com" target="_blank"><i class="icon ion-chatbox-working"></i></a><a href="https://www.zaask.pt/user/pmcfernandes" target="_blank"><img src="https://www.zaask.pt/widget?user=28978&amp;widget=pro-findme" style="position:relative;top:-15px;"></a></div>
+                <div class="text-start social-icons p-0">
+                    <a rel="noopener" href="http://www.linkedin.com/in/pmcfer" target="_blank" title="LinkedIn"><i class="icon ion-social-linkedin"></i></a>
+                    <a rel="noopener" href="https://github.com/pmcfernandes" target="_blank" title="Github"><i class="icon ion-social-github"></i></a>
+                    <a rel="noopener" href="https://www.x.com/pmcfernandes" target="_blank" title="X"><i class="icon ion-social-twitter"></i></a>
+                </div>
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="modalBooking" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Book a Session</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="padding: 0;background-color: #f2f2fe;">
+              <iframe src="https://impedro.setmore.com/book" width="100%" height="600" frameborder="0"></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.min.js"></script>
